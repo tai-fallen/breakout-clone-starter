@@ -8,7 +8,7 @@ instance_destroy(other);
 
 
 // Add one point to the score.
-obj_game.scored ++;
+obj_game.scored +=100;
 
 // Play a different sound for breaking a brick.
 audio_play_sound(sfx_break, 1, false);
